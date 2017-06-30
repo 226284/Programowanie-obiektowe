@@ -1,0 +1,21 @@
+digraph "LZespolona::Im"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="LZespolona::Im",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="LZespolona::operator+",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_l_zespolona.html#a5d1ef2778d9eab7cffff068c0e2c9367",tooltip="Przeciążenie daje możliwość dodawania liczb zespolonych. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="LZespolona::operator-",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_l_zespolona.html#abc9d3d1428dc56d780f8748396a51624",tooltip="Przeciążenie daje możliwość odejmowania liczb zespolonych. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="LZespolona::operator*",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_l_zespolona.html#a7f7a9b6712aef83d0f66738b698c10c0",tooltip="Przeciążenie daje możliwość mnożenia liczb zespolonych. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="LZespolona::operator/",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_l_zespolona.html#abf498634d40bf11b3ad1ba00ff8410ed",tooltip="Przeciążenie daje możliwość dzielenia liczb zespolonych. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="LZespolona::operator==",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_l_zespolona.html#ab30a63978639a485116bbb440053b239",tooltip="Przecieciążenie operatora porównania. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="LZespolona::operator!=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_l_zespolona.html#aa1ca30b281377c7a79ccf25efbf79033",tooltip="Przecieciążenie operatora nierówności. "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="operator\>\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_lzespolona_8cpp.html#a54982a54e8edc08945d062268a86d8a0",tooltip="Przeciążenie wczytyje LZespoloną na standardowe wejście. "];
+}

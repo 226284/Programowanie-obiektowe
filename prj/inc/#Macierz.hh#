@@ -1,0 +1,117 @@
+#ifndef MACIERZ_HH
+#define MACIERZ_HH
+
+#include "rozmiar.h"
+#include "Wektor.hh"
+#include <iostream>
+
+/*!
+ * \brief Klasa Macierz określa macierz znaków składającą się z Wektorów
+ *
+ * Klasa Macierz jest używana do przechowywania współczynników przy odpowiednich zmiennych w poszczególnych równaniach układu równań liniowych.
+ */
+class Macierz
+{
+  /*!
+   * \brief Przechowuje Rozmiar macierzy
+   *
+   * Umieszczony jest tutaj rozmiar macierzy, zgodny
+   */
+  unsigned int Rozmiar;
+  /*!
+   * \brief Tworzy kolumny oparte na Wektorach
+   *
+   * Pelny opis pola.
+   */
+  Wektor K[ROZMIAR];
+   /*!
+   * \brief Przechowuje informacje o wyznaczniku macierzy
+   *
+   * Pelny opis pola.
+   */
+  element_t Wyznacznik;
+
+public:
+
+  //Konstruktor nadający podstawowe parametry
+  /*!
+   * \brief Konstruktor zeruje wyznacznik i przypisuje domyślny rozmiar macierzy
+   *
+   * Pelny opis konstruktora.
+   */
+  Macierz () {Rozmiar = ROZMIAR; Wyznacznik = 0;}
+  
+  //Operator () pozwala na swobodne poruszanie się po elementach macierzy
+  /*!
+   * \brief Przeciążenie pozwala na zmianę danych każdego pola macierzy
+   *
+   *  Pelny opis przeciazenia operatora
+   */
+  const element_t & operator () (const unsigned int r, const unsigned int c) const { return K[c][r]; }
+  /*!
+   * \brief Przeciążenie pozwala na odczyt danych każdego pola macierzy
+   *
+   *  Pelny opis przeciazenia operatora
+   */
+  element_t & operator () (const unsigned int r, const unsigned int c) { return K[c][r]; }
+  
+  //Operator [] pozwala na swobodne poruszanie się po kolumnach macierzy
+  /*!
+   * \brief Przeciążenie pozwala na zmianę danych kolumny macierzy
+   *
+   *  Pelny opis przeciazenia operatora
+   */
+  const Wektor & operator [] (unsigned int Kol) const { return K[Kol]; }
+  /*!
+   * \brief Przeciążenie pozwala na odczyt danych z kolumny macierzy
+   *
+   *  Pelny opis przeciazenia operatora
+   */
+  Wektor & operator [] (unsigned int Kol) { return K[Kol]; }
+  
+  //Ustawianie rozmiaru
+  /*!
+   * \brief Metoda ustawia rozmiar macierzy
+   *
+   *  Pelny opis metody
+   */
+  void set_rozmiar (unsigned int rozm) { Rozmiar = rozm; }
+  /*!
+   * \brief Metoda pobiera rozmiar macierzy
+   *
+   *  Pelny opis metody
+   */
+  unsigned int const get_rozmiar () const { return Rozmiar; }
+
+  //Ustawianie wyznacznika
+  /*!
+   * \brief Metoda ustawia wyznacznik macierzy
+   *
+   *  Pelny opis metody
+   */
+  element_t set_wyznacznik (element_t wyzn) { Wyznacznik = wyzn; return Wyznacznik;}
+  /*!
+   * \brief Metoda pobiera wyznacznik macierzy
+   *
+   *  Pelny opis metody
+   */
+  element_t get_wyznacznik () { return Wyznacznik; }
+  
+};
+
+//Strumienie wejścia/wyjścia dla macierzy
+std::istream & operator >> (std::istream &Strm, Macierz &Mac);
+
+std::ostream & operator << (std::ostream &Strm, const Macierz &Mac);
+
+
+//Czasem zdarza się, że wyznacznik nie do końca jest równy 0
+//wynika to z faktu iż kompilator nie zaokrągla bardzo małych liczb typu float
+//funkcja ta zaokrągla wyznacznik jeżeli jest on -0.001 < W < 0.001
+element_t sprawdz_wyzn (element_t wyzn);
+
+//Funkcja wczytuje macierz a następnie liczy jej wyznacznik
+element_t wyznacznik (Macierz m);
+
+
+#endif

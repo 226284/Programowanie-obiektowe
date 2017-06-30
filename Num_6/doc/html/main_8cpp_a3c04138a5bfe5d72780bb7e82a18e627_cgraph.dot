@@ -1,0 +1,23 @@
+digraph "main"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="main",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ListaBlokow::DodajBlokSygnalowy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_lista_blokow.html#ab77e5d62f4959fc61d2461a454bd7a68",tooltip="Dodaje nowy blok sygnałowy. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="BlokDyskryminacji::\lset_prog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_blok_dyskryminacji.html#a37c78cbbccff477e8b725e2793ba734c",tooltip="Ustawia wartość progu. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="BlokWzmocnienia::set\l_wzmocnienie",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_blok_wzmocnienia.html#a1e88a3fcca52d0c36419bade3e1b0a87"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="BlokPrzesuniecia::set\l_przesuniecie",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_blok_przesuniecia.html#af902f8dfad9840f82e55f00feb8deacb"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Sygnal::ZmienCzas",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_sygnal.html#a07af57653c172f623dc5dba5dcd4c868",tooltip="Zmienia wartość czasu. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Sygnal::ZmienWartoscSyg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_sygnal.html#acf5cbff48e1810b643c247eb2648d3a6",tooltip="Zmienia wartość syganłu. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ListaBlokow::WyswietlTyp\lBlokowWLiscie",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_lista_blokow.html#a6eaed622e04fdd01246ffda3879b9631",tooltip="Wyświetla typy blokow. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ListaBlokow::WyliczSygnal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_lista_blokow.html#ab2670c3636e6a68cb40fe0b49fd04e9d",tooltip="Realizuje przeliczenie sygnału dla całej listy bloków. "];
+}

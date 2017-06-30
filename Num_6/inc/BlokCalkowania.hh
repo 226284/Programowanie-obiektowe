@@ -1,0 +1,52 @@
+#ifndef BLOKCALKOWANIA_HH
+#define BLOKCALKOWANIA_HH
+#include <string>
+#include "BlokSygnalowy.hh"
+
+#ifdef __GNUG__
+# pragma interface
+# pragma implementation
+#endif
+
+class BlokCalkowania: public BlokSygnalowy{
+
+private:
+
+  Sygnal sygnal_poprzedni;
+
+  double calkowite_pole;
+  
+public:
+
+  Sygnal get_sygnal_poprzedni(){return sygnal_poprzedni;}
+
+  void set_sygnal_poprzedni(Sygnal Syg){sygnal_poprzedni = Syg;}
+
+
+    
+  virtual bool WyliczSygnalWyj(const Sygnal& Syg)
+  {
+    
+    _SygnalWyj = Syg;
+    
+    calkowite_pole = (Syg.WezWartoscSyg()-sygnal_poprzedni.WezWartoscSyg())*(Syg.WezCzas()-sygnal_poprzedni.WezCzas());
+
+    //calkowite_pole= Syg.WezWartoscSyg();
+    
+    _SygnalWyj.ZmienWartoscSyg(calkowite_pole);
+
+    set_sygnal_poprzedni(Syg);
+    
+    return true;
+    
+  }
+  
+  virtual int Identyfikator() const { return 4; }
+  
+  virtual const char* NazwaBloku() const { return "Blok calkujacy"; }
+  
+  virtual std::string OpisBloku() const { return "Calkuje wartosc sygnalu"; }
+};
+
+
+#endif

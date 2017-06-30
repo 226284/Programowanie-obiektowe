@@ -1,0 +1,616 @@
+Searching for include files...
+Searching for example files...
+Searching for images...
+Searching for dot files...
+Searching for msc files...
+Searching for dia files...
+Searching for files to exclude
+Searching for files to process...
+Searching for files in directory /home/michal/Pulpit/program
+Searching for files in directory /home/michal/Pulpit/program/doc
+Searching for files in directory /home/michal/Pulpit/program/doc/img
+Searching for files in directory /home/michal/Pulpit/program/doc/pages
+Searching for files in directory /home/michal/Pulpit/program/inc
+Searching for files in directory /home/michal/Pulpit/program/obj
+Searching for files in directory /home/michal/Pulpit/program/src
+Reading and parsing tag files
+Parsing files
+Preprocessing /home/michal/Pulpit/program/inc/BlokCalkowania.hh...
+Parsing file /home/michal/Pulpit/program/inc/BlokCalkowania.hh...
+Preprocessing /home/michal/Pulpit/program/inc/BlokDyskryminacji.hh...
+Parsing file /home/michal/Pulpit/program/inc/BlokDyskryminacji.hh...
+Preprocessing /home/michal/Pulpit/program/inc/BlokPotegujacy.hh...
+Parsing file /home/michal/Pulpit/program/inc/BlokPotegujacy.hh...
+Preprocessing /home/michal/Pulpit/program/inc/BlokProstujacy.hh...
+Parsing file /home/michal/Pulpit/program/inc/BlokProstujacy.hh...
+Preprocessing /home/michal/Pulpit/program/inc/BlokPrzesuniecia.hh...
+Parsing file /home/michal/Pulpit/program/inc/BlokPrzesuniecia.hh...
+Preprocessing /home/michal/Pulpit/program/inc/BlokSygnalowy.hh...
+Parsing file /home/michal/Pulpit/program/inc/BlokSygnalowy.hh...
+Preprocessing /home/michal/Pulpit/program/inc/BlokWzmocnienia.hh...
+Parsing file /home/michal/Pulpit/program/inc/BlokWzmocnienia.hh...
+Preprocessing /home/michal/Pulpit/program/inc/ListaBlokow.hh...
+Parsing file /home/michal/Pulpit/program/inc/ListaBlokow.hh...
+Preprocessing /home/michal/Pulpit/program/src/BlokCalkowania.cpp...
+Parsing file /home/michal/Pulpit/program/src/BlokCalkowania.cpp...
+Preprocessing /home/michal/Pulpit/program/src/BlokDyskryminacji.cpp...
+Parsing file /home/michal/Pulpit/program/src/BlokDyskryminacji.cpp...
+Preprocessing /home/michal/Pulpit/program/src/BlokPotegujacy.cpp...
+Parsing file /home/michal/Pulpit/program/src/BlokPotegujacy.cpp...
+Preprocessing /home/michal/Pulpit/program/src/BlokProstujacy.cpp...
+Parsing file /home/michal/Pulpit/program/src/BlokProstujacy.cpp...
+Preprocessing /home/michal/Pulpit/program/src/BlokPrzesuniecia.cpp...
+Parsing file /home/michal/Pulpit/program/src/BlokPrzesuniecia.cpp...
+Preprocessing /home/michal/Pulpit/program/src/BlokSygnalowy.cpp...
+Parsing file /home/michal/Pulpit/program/src/BlokSygnalowy.cpp...
+Preprocessing /home/michal/Pulpit/program/src/BlokWzmocnienia.cpp...
+Parsing file /home/michal/Pulpit/program/src/BlokWzmocnienia.cpp...
+Preprocessing /home/michal/Pulpit/program/src/ListaBlokow.cpp...
+Parsing file /home/michal/Pulpit/program/src/ListaBlokow.cpp...
+Preprocessing /home/michal/Pulpit/program/src/main.cpp...
+Parsing file /home/michal/Pulpit/program/src/main.cpp...
+Building group list...
+Building directory list...
+Building namespace list...
+Building file list...
+Building class list...
+Associating documentation with classes...
+Computing nesting relations for classes...
+Building example list...
+Searching for enumerations...
+Searching for documented typedefs...
+Searching for members imported via using declarations...
+Searching for included using directives...
+Searching for documented variables...
+Building interface member list...
+Building member list...
+Searching for friends...
+Searching for documented defines...
+Computing class inheritance relations...
+Computing class usage relations...
+Flushing cached template relations that have become invalid...
+Creating members for template instances...
+Computing class relations...
+Add enum values to enums...
+Searching for member function documentation...
+Building page list...
+Search for main page...
+Computing page relations...
+Determining the scope of groups...
+Sorting lists...
+Freeing entry tree
+Determining which enums are documented
+Computing member relations...
+Building full member lists recursively...
+Adding members to member groups.
+Computing member references...
+Inheriting documentation...
+Generating disk names...
+Adding source references...
+Adding xrefitems...
+Sorting member lists...
+Computing dependencies between directories...
+Generating citations page...
+Counting data structures...
+Resolving user defined references...
+Finding anchors and sections in the documentation...
+Transferring function references...
+Combining using relations...
+Adding members to index pages...
+Generating style sheet...
+Generating example documentation...
+Generating file sources...
+Generating code for file /home/michal/Pulpit/program/inc/BlokCalkowania.hh...
+Generating code for file /home/michal/Pulpit/program/inc/BlokDyskryminacji.hh...
+Generating code for file /home/michal/Pulpit/program/inc/BlokPotegujacy.hh...
+Generating code for file /home/michal/Pulpit/program/inc/BlokProstujacy.hh...
+Generating code for file /home/michal/Pulpit/program/inc/BlokPrzesuniecia.hh...
+Generating code for file /home/michal/Pulpit/program/inc/BlokSygnalowy.hh...
+Generating code for file /home/michal/Pulpit/program/inc/BlokWzmocnienia.hh...
+Generating code for file /home/michal/Pulpit/program/inc/ListaBlokow.hh...
+Generating code for file /home/michal/Pulpit/program/src/BlokCalkowania.cpp...
+Generating code for file /home/michal/Pulpit/program/src/BlokDyskryminacji.cpp...
+Generating code for file /home/michal/Pulpit/program/src/BlokPotegujacy.cpp...
+Generating code for file /home/michal/Pulpit/program/src/BlokProstujacy.cpp...
+Generating code for file /home/michal/Pulpit/program/src/BlokPrzesuniecia.cpp...
+Generating code for file /home/michal/Pulpit/program/src/BlokSygnalowy.cpp...
+Generating code for file /home/michal/Pulpit/program/src/BlokWzmocnienia.cpp...
+Generating code for file /home/michal/Pulpit/program/src/ListaBlokow.cpp...
+Generating code for file /home/michal/Pulpit/program/src/main.cpp...
+Generating file documentation...
+Generating docs for file /home/michal/Pulpit/program/inc/BlokCalkowania.hh...
+Generating docs for file /home/michal/Pulpit/program/inc/BlokDyskryminacji.hh...
+Generating docs for file /home/michal/Pulpit/program/inc/BlokPotegujacy.hh...
+Generating docs for file /home/michal/Pulpit/program/inc/BlokProstujacy.hh...
+Generating docs for file /home/michal/Pulpit/program/inc/BlokPrzesuniecia.hh...
+Generating docs for file /home/michal/Pulpit/program/inc/BlokSygnalowy.hh...
+Generating docs for file /home/michal/Pulpit/program/inc/BlokWzmocnienia.hh...
+Generating docs for file /home/michal/Pulpit/program/inc/ListaBlokow.hh...
+Generating docs for file /home/michal/Pulpit/program/src/BlokCalkowania.cpp...
+Generating docs for file /home/michal/Pulpit/program/src/BlokDyskryminacji.cpp...
+Generating docs for file /home/michal/Pulpit/program/src/BlokPotegujacy.cpp...
+Generating docs for file /home/michal/Pulpit/program/src/BlokProstujacy.cpp...
+Generating docs for file /home/michal/Pulpit/program/src/BlokPrzesuniecia.cpp...
+Generating docs for file /home/michal/Pulpit/program/src/BlokSygnalowy.cpp...
+Generating docs for file /home/michal/Pulpit/program/src/BlokWzmocnienia.cpp...
+Generating docs for file /home/michal/Pulpit/program/src/ListaBlokow.cpp...
+Generating docs for file /home/michal/Pulpit/program/src/main.cpp...
+Generating call graph for function main
+Generating page documentation...
+Generating group documentation...
+Generating class documentation...
+Generating docs for compound BlokCalkowania...
+Generating caller graph for function BlokCalkowania::set_sygnal_poprzedni
+Generating call graph for function BlokCalkowania::WyliczSygnalWyj
+Generating docs for compound BlokDyskryminacji...
+Generating caller graph for function BlokDyskryminacji::get_prog
+Generating caller graph for function BlokDyskryminacji::set_prog
+Generating call graph for function BlokDyskryminacji::WyliczSygnalWyj
+Generating docs for compound BlokPotegujacy...
+Generating call graph for function BlokPotegujacy::WyliczSygnalWyj
+Generating docs for compound BlokProstujacy...
+Generating call graph for function BlokProstujacy::WyliczSygnalWyj
+Generating docs for compound BlokPrzesuniecia...
+Generating caller graph for function BlokPrzesuniecia::set_przesuniecie
+Generating call graph for function BlokPrzesuniecia::WyliczSygnalWyj
+Generating docs for compound BlokSygnalowy...
+Generating docs for compound BlokWzmocnienia...
+Generating caller graph for function BlokWzmocnienia::set_wzmocnienie
+Generating call graph for function BlokWzmocnienia::WyliczSygnalWyj
+Generating docs for compound ListaBlokow...
+Generating caller graph for function ListaBlokow::DodajBlokSygnalowy
+Generating caller graph for function ListaBlokow::WyliczSygnal
+Generating caller graph for function ListaBlokow::WyswietlTypBlokowWLiscie
+Generating docs for compound Sygnal...
+/home/michal/Pulpit/program/inc/BlokSygnalowy.hh:46: warning: unable to resolve link to `Sygnal::_Czas' for \link command
+Generating caller graph for function Sygnal::WezCzas
+/home/michal/Pulpit/program/inc/BlokSygnalowy.hh:53: warning: unable to resolve link to `Sygnal::_WartoscSyg' for \link command
+Generating caller graph for function Sygnal::WezWartoscSyg
+Generating caller graph for function Sygnal::ZmienCzas
+Generating caller graph for function Sygnal::ZmienWartoscSyg
+Generating namespace index...
+Generating graph info page...
+Generating directory documentation...
+Generating dependency graph for directory /home/michal/Pulpit/program/inc
+Generating dependency graph for directory /home/michal/Pulpit/program/src
+Generating index page...
+Generating page index...
+Generating module index...
+Generating namespace index...
+Generating namespace member index...
+Generating annotated compound index...
+Generating alphabetical compound index...
+Generating hierarchical class index...
+Generating graphical class hierarchy...
+Generating member index...
+Generating file index...
+Generating file member index...
+Generating example index...
+finalizing index lists...
+Running dot...
+Generating dot graphs using 5 parallel threads...
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/_blok_dyskryminacji_8hh__incl.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/_blok_dyskryminacji_8hh__incl.png"'
+Running dot for graph 1/66
+Running dot for graph 2/66
+Running dot for graph 3/66
+Running dot for graph 4/66
+Running dot for graph 5/66
+Running dot for graph 6/66
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/_blok_calkowania_8hh__dep__incl.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/_blok_calkowania_8hh__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/_blok_dyskryminacji_8hh__dep__incl.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/_blok_dyskryminacji_8hh__dep__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/_blok_calkowania_8hh__incl.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/_blok_calkowania_8hh__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/_blok_potegujacy_8hh__dep__incl.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/_blok_potegujacy_8hh__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/_blok_potegujacy_8hh__incl.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/_blok_potegujacy_8hh__incl.png"'
+sh: 1: sh: 1: dot: not founddot: not found
+
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/_blok_sygnalowy_8hh__incl.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/_blok_sygnalowy_8hh__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/_blok_prostujacy_8hh__incl.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/_blok_prostujacy_8hh__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/_blok_przesuniecia_8hh__dep__incl.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/_blok_przesuniecia_8hh__dep__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/_blok_prostujacy_8hh__dep__incl.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/_blok_prostujacy_8hh__dep__incl.png"'
+sh: 1: sh: 1: dot: not founddot: not found
+
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/_blok_przesuniecia_8hh__incl.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/_blok_przesuniecia_8hh__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/_blok_wzmocnienia_8hh__dep__incl.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/_blok_wzmocnienia_8hh__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/_lista_blokow_8hh__dep__incl.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/_lista_blokow_8hh__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/_blok_calkowania_8cpp__incl.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/_blok_calkowania_8cpp__incl.png"'
+sh: 1: sh: 1: dot: not founddot: not found
+
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/_blok_dyskryminacji_8cpp__incl.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/_blok_dyskryminacji_8cpp__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/_blok_wzmocnienia_8hh__incl.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/_blok_wzmocnienia_8hh__incl.png"'
+sh: 1: dot: not found
+sh: 1: sh: 1: dot: not founddot: not found
+
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/_blok_sygnalowy_8hh__dep__incl.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/_blok_sygnalowy_8hh__dep__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/_blok_prostujacy_8cpp__incl.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/_blok_prostujacy_8cpp__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/_blok_potegujacy_8cpp__incl.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/_blok_potegujacy_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/_blok_przesuniecia_8cpp__incl.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/_blok_przesuniecia_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/_lista_blokow_8cpp__incl.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/_lista_blokow_8cpp__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/_blok_sygnalowy_8cpp__incl.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/_blok_sygnalowy_8cpp__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/main_8cpp__incl.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/main_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627_cgraph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_blok_calkowania__inherit__graph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_blok_calkowania__inherit__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/_lista_blokow_8hh__incl.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/_lista_blokow_8hh__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_blok_calkowania_a3efb05ae0d12b692ba92446e16cfdce8_cgraph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_blok_calkowania_a3efb05ae0d12b692ba92446e16cfdce8_cgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_blok_calkowania_ac29bb654a5bd555d032a61b139f30e60_icgraph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_blok_calkowania_ac29bb654a5bd555d032a61b139f30e60_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/_blok_wzmocnienia_8cpp__incl.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/_blok_wzmocnienia_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_blok_dyskryminacji__inherit__graph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_blok_dyskryminacji__inherit__graph.png"'
+sh: 1: sh: 1: dot: not founddot: not found
+
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_blok_dyskryminacji__coll__graph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_blok_dyskryminacji__coll__graph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_blok_calkowania__coll__graph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_blok_calkowania__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_blok_dyskryminacji_a80427257e9ddf17c31f2c61cf29364bf_cgraph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_blok_dyskryminacji_a80427257e9ddf17c31f2c61cf29364bf_cgraph.png"'
+sh: 1: sh: 1: dot: not founddot: not found
+
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_blok_potegujacy__inherit__graph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_blok_potegujacy__inherit__graph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_blok_dyskryminacji_a3df3cc489f05a3b9209881e95a329903_icgraph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_blok_dyskryminacji_a3df3cc489f05a3b9209881e95a329903_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_blok_prostujacy__coll__graph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_blok_prostujacy__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_blok_potegujacy__coll__graph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_blok_potegujacy__coll__graph.png"'
+sh: 1: sh: 1: dot: not founddot: not found
+
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_blok_prostujacy_abf5c8bee62a8da13c252167e94b8d55a_cgraph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_blok_prostujacy_abf5c8bee62a8da13c252167e94b8d55a_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_blok_prostujacy__inherit__graph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_blok_prostujacy__inherit__graph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_blok_przesuniecia__inherit__graph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_blok_przesuniecia__inherit__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_blok_przesuniecia_af902f8dfad9840f82e55f00feb8deacb_icgraph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_blok_przesuniecia_af902f8dfad9840f82e55f00feb8deacb_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_blok_dyskryminacji_a37c78cbbccff477e8b725e2793ba734c_icgraph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_blok_dyskryminacji_a37c78cbbccff477e8b725e2793ba734c_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_blok_przesuniecia_a5f58fe42cbaeb5b214d92226fe47df91_cgraph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_blok_przesuniecia_a5f58fe42cbaeb5b214d92226fe47df91_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_blok_potegujacy_acc2908c2f2545d249397f223f9d254d5_cgraph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_blok_potegujacy_acc2908c2f2545d249397f223f9d254d5_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_blok_przesuniecia__coll__graph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_blok_przesuniecia__coll__graph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_blok_sygnalowy__inherit__graph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_blok_sygnalowy__inherit__graph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_blok_sygnalowy__coll__graph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_blok_sygnalowy__coll__graph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_blok_wzmocnienia__inherit__graph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_blok_wzmocnienia__inherit__graph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_blok_wzmocnienia_a1e88a3fcca52d0c36419bade3e1b0a87_icgraph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_blok_wzmocnienia_a1e88a3fcca52d0c36419bade3e1b0a87_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_blok_wzmocnienia__coll__graph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_blok_wzmocnienia__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_lista_blokow__inherit__graph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_lista_blokow__inherit__graph.png"'
+sh: 1: sh: 1: dot: not found
+dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_blok_wzmocnienia_a874fbfb999b822d626056300d617298e_cgraph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_blok_wzmocnienia_a874fbfb999b822d626056300d617298e_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_lista_blokow_ab77e5d62f4959fc61d2461a454bd7a68_icgraph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_lista_blokow_ab77e5d62f4959fc61d2461a454bd7a68_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_lista_blokow_a6eaed622e04fdd01246ffda3879b9631_icgraph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_lista_blokow_a6eaed622e04fdd01246ffda3879b9631_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_lista_blokow_ab2670c3636e6a68cb40fe0b49fd04e9d_icgraph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_lista_blokow_ab2670c3636e6a68cb40fe0b49fd04e9d_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_lista_blokow__coll__graph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_lista_blokow__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_sygnal_a07af57653c172f623dc5dba5dcd4c868_icgraph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_sygnal_a07af57653c172f623dc5dba5dcd4c868_icgraph.png"'
+sh: 1: sh: 1: dot: not found
+dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/dir_bfccd401955b95cf8c75461437045ac0_dep.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/dir_bfccd401955b95cf8c75461437045ac0_dep.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/graph_legend.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/graph_legend.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_sygnal_afd7c427955bbbe1451e04c7ac24516d2_icgraph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_sygnal_afd7c427955bbbe1451e04c7ac24516d2_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_sygnal_a0d650c658f3e0f482b2dd350460d2484_icgraph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_sygnal_a0d650c658f3e0f482b2dd350460d2484_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/class_sygnal_acf5cbff48e1810b643c247eb2648d3a6_icgraph.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/class_sygnal_acf5cbff48e1810b643c247eb2648d3a6_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/inherit_graph_2.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/inherit_graph_2.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/inherit_graph_1.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/inherit_graph_1.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/dir_68267d1309a1af8e8297ef4c3efbcdba_dep.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/dir_68267d1309a1af8e8297ef4c3efbcdba_dep.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/program/doc/html/inherit_graph_0.dot" -Tpng -o "/home/michal/Pulpit/program/doc/html/inherit_graph_0.png"'
+Running dot for graph 7/66
+Running dot for graph 8/66
+Running dot for graph 9/66
+Running dot for graph 10/66
+Running dot for graph 11/66
+Running dot for graph 12/66
+Running dot for graph 13/66
+Running dot for graph 14/66
+Running dot for graph 15/66
+Running dot for graph 16/66
+Running dot for graph 17/66
+Running dot for graph 18/66
+Running dot for graph 19/66
+Running dot for graph 20/66
+Running dot for graph 21/66
+Running dot for graph 22/66
+Running dot for graph 23/66
+Running dot for graph 24/66
+Running dot for graph 25/66
+Running dot for graph 26/66
+Running dot for graph 27/66
+Running dot for graph 28/66
+Running dot for graph 29/66
+Running dot for graph 30/66
+Running dot for graph 31/66
+Running dot for graph 32/66
+Running dot for graph 33/66
+Running dot for graph 34/66
+Running dot for graph 35/66
+Running dot for graph 36/66
+Running dot for graph 37/66
+Running dot for graph 38/66
+Running dot for graph 39/66
+Running dot for graph 40/66
+Running dot for graph 41/66
+Running dot for graph 42/66
+Running dot for graph 43/66
+Running dot for graph 44/66
+Running dot for graph 45/66
+Running dot for graph 46/66
+Running dot for graph 47/66
+Running dot for graph 48/66
+Running dot for graph 49/66
+Running dot for graph 50/66
+Running dot for graph 51/66
+Running dot for graph 52/66
+Running dot for graph 53/66
+Running dot for graph 54/66
+Running dot for graph 55/66
+Running dot for graph 56/66
+Running dot for graph 57/66
+Running dot for graph 58/66
+Running dot for graph 59/66
+Running dot for graph 60/66
+Running dot for graph 61/66
+Running dot for graph 62/66
+Running dot for graph 63/66
+Running dot for graph 64/66
+Running dot for graph 65/66
+Running dot for graph 66/66
+Patching output file 1/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/_blok_calkowania_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/_blok_calkowania_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 2/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/_blok_dyskryminacji_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/_blok_dyskryminacji_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 3/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/_blok_potegujacy_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/_blok_potegujacy_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 4/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/_blok_prostujacy_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/_blok_prostujacy_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 5/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/_blok_przesuniecia_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/_blok_przesuniecia_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 6/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/_blok_sygnalowy_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/_blok_sygnalowy_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 7/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/_blok_wzmocnienia_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/_blok_wzmocnienia_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 8/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/_lista_blokow_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/_lista_blokow_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 9/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/_blok_calkowania_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 10/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/_blok_dyskryminacji_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 11/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/_blok_potegujacy_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 12/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/_blok_prostujacy_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 13/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/_blok_przesuniecia_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 14/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/_blok_sygnalowy_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 15/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/_blok_wzmocnienia_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 16/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/_lista_blokow_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 17/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/main_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 18/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_blok_calkowania__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_blok_calkowania__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_blok_calkowania_ac29bb654a5bd555d032a61b139f30e60_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_blok_calkowania_a3efb05ae0d12b692ba92446e16cfdce8_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 19/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_blok_dyskryminacji__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_blok_dyskryminacji__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_blok_dyskryminacji_a3df3cc489f05a3b9209881e95a329903_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_blok_dyskryminacji_a37c78cbbccff477e8b725e2793ba734c_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_blok_dyskryminacji_a80427257e9ddf17c31f2c61cf29364bf_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 20/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_blok_potegujacy__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_blok_potegujacy__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_blok_potegujacy_acc2908c2f2545d249397f223f9d254d5_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 21/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_blok_prostujacy__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_blok_prostujacy__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_blok_prostujacy_abf5c8bee62a8da13c252167e94b8d55a_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 22/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_blok_przesuniecia__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_blok_przesuniecia__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_blok_przesuniecia_af902f8dfad9840f82e55f00feb8deacb_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_blok_przesuniecia_a5f58fe42cbaeb5b214d92226fe47df91_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 23/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_blok_sygnalowy__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_blok_sygnalowy__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 24/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_blok_wzmocnienia__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_blok_wzmocnienia__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_blok_wzmocnienia_a1e88a3fcca52d0c36419bade3e1b0a87_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_blok_wzmocnienia_a874fbfb999b822d626056300d617298e_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 25/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_lista_blokow__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_lista_blokow__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_lista_blokow_ab77e5d62f4959fc61d2461a454bd7a68_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_lista_blokow_ab2670c3636e6a68cb40fe0b49fd04e9d_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_lista_blokow_a6eaed622e04fdd01246ffda3879b9631_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 26/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_sygnal_a0d650c658f3e0f482b2dd350460d2484_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_sygnal_afd7c427955bbbe1451e04c7ac24516d2_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_sygnal_a07af57653c172f623dc5dba5dcd4c868_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/class_sygnal_acf5cbff48e1810b643c247eb2648d3a6_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 27/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/dir_bfccd401955b95cf8c75461437045ac0_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 28/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/dir_68267d1309a1af8e8297ef4c3efbcdba_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 29/29
+error: problems opening map file /home/michal/Pulpit/program/doc/html/inherit_graph_0.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/inherit_graph_1.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/program/doc/html/inherit_graph_2.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+lookup cache used 139/65536 hits=514 misses=143
+finished...
+*** Doxygen has finished

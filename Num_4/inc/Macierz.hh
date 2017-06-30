@@ -1,0 +1,196 @@
+#ifndef MACIERZ_HH
+#define MACIERZ_HH
+
+#include "rozmiar.h"
+#include "Wektor.hh"
+#include <iostream>
+
+
+/*!
+ * \brief Klasa Macierz określa macierz znaków składającą się z Wektorów
+ *
+ * Pelny opis klasy.
+ */
+template <typename Typ>
+class Macierz
+{
+  /*!
+   * \brief Przechowuje Rozmiar macierzy
+   *
+   * Pelny opis pola.
+   */
+  unsigned int Rozmiar;
+  /*!
+   * \brief Tworzy kolumny oparte na Wektorach
+   *
+   * Pelny opis pola.
+   */
+  Wektor<Typ> K[ROZMIAR];
+   /*!
+   * \brief Przechowuje informacje o wyznaczniku macierzy
+   *
+   * Pelny opis pola.
+   */
+  Typ Wyznacznik;
+
+public:
+
+  //Konstruktor nadający podstawowe parametry
+  /*!
+   * \brief Konstruktor zeruje wyznacznik i przypisuje domyślny rozmiar macierzy
+   *
+   * Pelny opis konstruktora.
+   */
+  Macierz<Typ> () { Rozmiar = ROZMIAR; Wyznacznik = 0;}
+  
+  //Operator () pozwala na swobodne poruszanie się po elementach macierzy
+  /*!
+   * \brief Przeciążenie pozwala na zmianę danych każdego pola macierzy
+   *
+   *  Pelny opis przeciazenia operatora
+   */
+  const Typ & operator () (const unsigned int r, const unsigned int c) const { return K[c][r]; }
+  /*!
+   * \brief Przeciążenie pozwala na odczyt danych każdego pola macierzy
+   *
+   *  Pelny opis przeciazenia operatora
+   */
+  Typ & operator () (const unsigned int r, const unsigned int c) { return K[c][r]; }
+  
+  //Operator [] pozwala na swobodne poruszanie się po kolumnach macierzy
+  /*!
+   * \brief Przeciążenie pozwala na zmianę danych kolumny macierzy
+   *
+   *  Pelny opis przeciazenia operatora
+   */
+  const Wektor<Typ> & operator [] (unsigned int Kol) const { return K[Kol]; }
+  /*!
+   * \brief Przeciążenie pozwala na odczyt danych z kolumny macierzy
+   *
+   *  Pelny opis przeciazenia operatora
+   */
+  Wektor<Typ> & operator [] (unsigned int Kol) { return K[Kol]; }
+  
+  //Ustawianie rozmiaru
+  /*!
+   * \brief Metoda ustawia rozmiar macierzy
+   *
+   *  Pelny opis metody
+   */
+  void set_rozmiar (unsigned int rozm) { Rozmiar = rozm; }
+  /*!
+   * \brief Metoda pobiera rozmiar macierzy
+   *
+   *  Pelny opis metody
+   */
+  unsigned int const get_rozmiar () const { return Rozmiar; }
+
+  //Ustawianie wyznacznika
+  /*!
+   * \brief Metoda ustawia wyznacznik macierzy
+   *
+   *  Pelny opis metody
+   */
+  Typ set_wyznacznik (Typ wyzn) { Wyznacznik = wyzn; return Wyznacznik;}
+  /*!
+   * \brief Metoda pobiera wyznacznik macierzy
+   *
+   *  Pelny opis metody
+   */
+  Typ get_wyznacznik () { return Wyznacznik; }
+  /*!
+   * \brief Obliczenie wyznacznika macierzy 
+   *
+   * Metoda liczy wyznacznik dowolnej macierzy metodą Gaussa
+   */
+  Typ wyznacznik ();
+  
+};
+
+//Definicja metody liczenia wyznacznika
+template <typename Typ>
+Typ Macierz<Typ>::wyznacznik ()
+  {
+    unsigned int i,j,k,l;
+    unsigned int rozmiar = get_rozmiar();
+    Typ wynik;
+    Wektor<Typ> kolumny[ROZMIAR];
+    
+    for (i=0; i<rozmiar; ++i) 
+      {
+	kolumny[i] = K[i];
+      }
+    
+    for (i=0; i<rozmiar-1; ++i){
+      
+      for (j=i+1; j<rozmiar; ++j){
+	
+	for (k=i+1; k<rozmiar; ++k){
+	  
+	  if (kolumny[i][i] == 0)
+	    {
+	      bool find = false;
+	      for(l = i; l< rozmiar; ++l){
+		
+		if(kolumny[l][l] != 0)
+		  {
+		    Wektor<Typ> bufor;
+		    bufor = kolumny[i];
+		    kolumny[i] = kolumny[l];
+		    kolumny[l] = bufor;
+		    find = true;
+		  }
+	      }
+	      
+	      if(!find) return wynik*0;
+	    }
+	  
+	kolumny[j][k] = kolumny[j][k] - (kolumny[j][i] / kolumny[i][i] * kolumny[i][k]);
+	}
+      }
+    }
+    wynik = 1;
+    for(i = 0; i<rozmiar; ++i)
+      {
+	wynik = wynik * kolumny[i][i];
+      }
+    
+    return wynik * (-1);
+  }
+
+//Przeciążenie operatora >> dla wczytywania macierzy
+template <typename Typ>
+std::istream & operator >> (std::istream &Strm, Macierz<Typ> &Mac)
+{
+  unsigned int i,j;
+  for (i=0; i<Mac.get_rozmiar(); i++)
+    for(j=0; j<Mac.get_rozmiar(); j++)
+      {
+	{
+	  Strm >> Mac(j,i);
+	}
+      }
+  return Strm;
+}
+
+//Przeciążenie operatora << dla wypisywania miacierzy
+template <typename Typ>
+std::ostream & operator << (std::ostream &Strm, const Macierz<Typ> &Mac)
+{
+  unsigned int i,j;
+
+
+  for (i=0; i<Mac.get_rozmiar(); i++)
+    {
+      Strm << "|";
+      for(j=0; j<Mac.get_rozmiar(); j++)
+	{
+	  Strm << Mac(i,j) << " ";
+	}
+      Strm << "|" << std::endl;
+    }
+  return Strm;
+}
+
+
+#endif

@@ -1,0 +1,97 @@
+#ifndef WEKTOR_HH
+#define WEKTOR_HH
+
+#include "rozmiar.h"
+#include <iostream>
+
+
+typedef float element_t;   //deklaracja elementów z których składa się wektor
+
+/*!
+ * \brief Klasa Wektor określa wektor którego argumentami są liczby zespolone
+ *
+ *  Rozszerzony opis klasy
+ */
+
+class Wektor
+{
+  /*!
+   * \brief Przechowuje rozmiar Wektora
+   *
+   * Pelny opis pola.
+   */
+  unsigned int Rozmiar;
+  /*!
+   * \brief Przechowuje wektor
+   *
+   * Pelny opis pola.
+   */
+  element_t W[ROZMIAR];
+
+public:
+  
+  Wektor () {Rozmiar = ROZMIAR;}
+  
+  //Operator [] pozwala na odwoływanie się do poszczególnych elementów wektora
+   /*!
+   * \brief Konstruktor pozwala na zmianę elementów wektora
+   *
+   * Pelny opis konstruktora.
+   */
+  const element_t & operator [] (const unsigned int i) const { return W[i]; }
+   /*!
+   * \brief Konstruktor pozwala na pobranie danych z elementów wektora
+   *
+   * Pelny opis konstruktora.
+   */
+  element_t & operator [] (const unsigned int i) { return W[i]; }
+   
+  /*!
+   * \brief Metoda ustawia rozmiar wektora
+   *
+   * Pelny opis konstruktora.
+   */
+  void set_rozmiar (unsigned int rozm) { Rozmiar = rozm; }
+   /*!
+   * \brief Metoda pobiera rozmiar wektora
+   *
+   * Pelny opis konstruktora.
+   */
+  unsigned int const get_rozmiar () const { return Rozmiar; }
+
+};
+
+//Przeciążenia wczytujące wektor i wypisujące go
+
+std::istream & operator >> (std::istream &Strm, Wektor &Wek);
+
+std::ostream & operator << (std::ostream &Strm, const Wektor &Wek);
+
+
+// DODAWANIE WEKTORÓW
+
+Wektor operator + (Wektor w1, Wektor w2);
+
+
+// ODEJMOWANIE
+
+Wektor  operator - (Wektor w1, Wektor w2);
+
+
+// MNOŻENIE WEKTORÓW (ILOCZYN SKALARNY)
+
+element_t operator * (Wektor w1, Wektor w2);
+
+
+// MNOŻENIE PRZEZ LICZBE
+
+Wektor operator * (float Liczba, Wektor w);
+
+
+// DZIELENIE PRZEZ LICZBE
+
+Wektor operator / (Wektor w, int Liczba);
+
+
+
+#endif

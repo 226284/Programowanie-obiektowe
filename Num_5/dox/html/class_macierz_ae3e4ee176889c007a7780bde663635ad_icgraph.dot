@@ -1,0 +1,11 @@
+digraph "Macierz::get_rozmiar"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Macierz::get_rozmiar",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="operator\>\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_macierz_8hh.html#ad1e5d74cb70dbaccb09791a9ffb4caac"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="operator*",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_uklad_rownan_liniowych_8hh.html#ac4f04573d76f81a24fbd18bb1c099bfb"];
+}

@@ -1,0 +1,19 @@
+digraph "blad"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="blad",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="UkladRownanLiniowych\l::get_macierz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_uklad_rownan_liniowych.html#a1e568f70df9bb894c0b3ef5c3d33f386",tooltip="Metoda pozwala pobrać macierz znaków. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Macierz::get_wyznacznik",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_macierz.html#ac17e3480504384639d1e466fc1e6ae3b",tooltip="Metoda pobiera wyznacznik macierzy. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="UkladRownanLiniowych\l::set_wbledu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_uklad_rownan_liniowych.html#a45039d8626483a12d196c3dae001ba99",tooltip="Metoda pozwala ustawić wektor błędu. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="UkladRownanLiniowych\l::get_rozwiazanie",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_uklad_rownan_liniowych.html#a1da43ede21b5cb1b2ae63db6f5339663",tooltip="Metoda pozwala pobrać wektor rozwiązań "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="UkladRownanLiniowych\l::get_wyrazy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_uklad_rownan_liniowych.html#abf64d7e2bca68e1776f7c4de14539586",tooltip="Metoda pozwala pobrać wektor wyrazów wolnych. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="UkladRownanLiniowych\l::get_wbledu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_uklad_rownan_liniowych.html#a8dddcdaf71d0b65e579134cd7014f4c8",tooltip="Metoda pozwala pobrać wektor błędu. "];
+}

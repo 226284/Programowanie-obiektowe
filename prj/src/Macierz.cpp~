@@ -1,0 +1,79 @@
+#include "Macierz.hh"
+
+
+std::istream & operator >> (std::istream &Strm, Macierz &Mac)
+{
+  unsigned int i,j;
+  for (i=0; i<Mac.get_rozmiar(); i++)
+    for(j=0; j<Mac.get_rozmiar(); j++)
+      {
+	{
+	  Strm >> Mac(i,j);
+	}
+      }
+  return Strm;
+}
+
+std::ostream & operator << (std::ostream &Strm, const Macierz &Mac)
+{
+  unsigned int i,j;
+
+
+  for (i=0; i<Mac.get_rozmiar(); i++)
+    {
+      Strm << "|";
+      for(j=0; j<Mac.get_rozmiar(); j++)
+	{
+	  Strm << Mac(i,j) << " ";
+	}
+      Strm << "|" << std::endl;
+    }
+  return Strm;
+}
+
+element_t sprawdz_wyzn (element_t wyzn)
+{
+  if (wyzn < 0.001 && wyzn > -0.001)
+    {
+      return 0;
+    }
+
+  else
+    {
+      return wyzn;
+    }
+}
+
+element_t wyznacznik (Macierz m)
+{
+  unsigned int rozmiar = m.get_rozmiar();
+  element_t result;
+  Wektor _kolumny[ROZMIAR];
+  for(unsigned int i = 0; i < rozmiar; ++i) _kolumny[i] = m[i];
+  
+  for(unsigned int i = 0; i < rozmiar-1; ++i){
+    for(unsigned int j = i+1; j< rozmiar; ++j){
+      for(unsigned int k = i+1; k< rozmiar; ++k){
+	if(_kolumny[i][i] == 0){
+	  bool find = false;
+	  for(unsigned int l = i; l< rozmiar; ++l){
+	    if(_kolumny[l][l] != 0){
+	      Wektor tmp;
+	      tmp = _kolumny[i];
+	      _kolumny[i] = _kolumny[l];
+	      _kolumny[l] = tmp;
+	      find = true;
+	    }
+	  }
+	  if(!find) return 0;
+	}
+	_kolumny[j][k]  -= _kolumny[j][i]/_kolumny[i][i]*_kolumny[i][k];
+      }
+    }
+  }
+  result = 1;
+  for(unsigned int i = 0; i<rozmiar; ++i) result *= _kolumny[i][i];
+  
+  return result;
+}
+

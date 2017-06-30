@@ -1,0 +1,290 @@
+#include <iostream>
+
+using namespace std;
+
+/**************************************************************************************/
+/* INFORMACJE 
+   
+   Dodawanie:
+   $ Dodaj (Arg1 , Arg2)
+   $ operator + (Arg1 , Arg2)
+   $ Arg1 + Arg2
+   $ Arg + (+Arg)
+
+   Odejmowanie:
+   $ Odejmij (Arg1 , Arg2)
+   $ operator - (Arg1 , Arg2)
+   $ Arg1 - Arg2
+   $ Arg1 + (-Arg2)
+
+   Mnożenie:
+   $ Mnoz (Arg1 , Arg2)
+   $ operator * (Arg1 , Arg2)
+   $ Arg1 * Arg2
+
+   Dzielenie: (przy dzieleniu z liczbą neutralną, program wypisueje błąd!)
+   $ Dziel (Arg1 , Arg2)
+   $ operator / (Arg1 , Arg2)
+   $ Arg1 / Arg2
+   $ Arg1 * (/Arg2)
+
+   Potegowanie:
+   $ Potega (Arg)
+   $ operator ~ (Arg)
+   $ ~Arg
+
+*/
+/**************************************************************************************/
+/* TABLICZKA DODAWANIA I ODEJMOWANIA */
+
+enum Symbol {e,a,b,c,d,f};
+
+Symbol TabliczkaDzialania[5][5] = { {e,a,b,c,d},
+				    {a,d,e,b,c},
+				    {b,e,c,d,a},
+				    {c,d,b,a,e},
+				    {d,c,a,e,b} };
+
+/**************************************************************************************/
+/* TABLICZKA MNOŻENIA I DZIELENIA */
+
+Symbol TabliczkaMnozenia[5][5] = { {e,e,e,e,e},
+				   {e,a,b,c,d},
+				   {e,b,a,d,c},
+				   {e,c,d,b,a},
+				   {e,d,c,a,b} };
+
+/**************************************************************************************/
+/* DODAWANIE */
+
+Symbol Dodaj (Symbol Arg1, Symbol Arg2)
+{
+  return TabliczkaDzialania[Arg1][Arg2];
+}
+
+Symbol operator + (Symbol Arg1, Symbol Arg2)
+{
+  return TabliczkaDzialania[Arg1][Arg2];
+}
+
+Symbol operator + (Symbol Arg)
+{
+  return Arg;
+}
+
+/**************************************************************************************/
+/* ODEJMOWANIE */
+
+Symbol Przeciwny;
+
+Symbol Odejmij (Symbol Arg1, Symbol Arg2)
+{
+  //Znajdowanie elementu przeciwnego:
+  int i;
+
+  for(i=0; i<=4; i++)
+    {
+      Przeciwny = TabliczkaDzialania[e][i];
+      
+      if(Przeciwny + Arg2 == e)
+	{
+	  return TabliczkaDzialania[Arg1][Przeciwny];
+	}
+    }
+
+  cerr << "ODEJMOWANIE FUNKCYJNE: NIE ZNALEZIONO PRZECIWNEGO ELEMENTU!" << endl; 
+  return f;
+}
+
+Symbol PrzeciwnyDodawania (Symbol Arg)
+{
+  //Znajdowanie elementu przeciwnego:
+  int i;
+
+  for(i=0; i<=4; i++)
+    {
+      Przeciwny = TabliczkaDzialania[e][i];
+      
+      if(Przeciwny + Arg == e)
+	{
+	  return Przeciwny;
+	}
+    }
+  
+  cerr << "ZMIANA ZNAKU NA - : NIE ZNALEZIONO PRZECIWNEGO ELEMENTU!" << endl;
+  return f;
+}
+
+Symbol operator - (Symbol Arg1, Symbol Arg2)
+{
+  int i;
+
+  for(i=0; i<=4; i++)
+    {
+      Przeciwny = TabliczkaDzialania[e][i];
+      
+      if(Przeciwny + Arg2 == e)
+	{
+	  return TabliczkaDzialania[Arg1][Przeciwny];
+	}
+    }
+
+  cerr << "ODEJMOWANIE OPERATOROWE/AlGEBRAICZNE: NIE ZNALEZIONO PRZECIWNEGO ELEMENTU!"
+ << endl; 
+  return f;
+}
+
+Symbol operator - (Symbol Arg)
+{
+  int i;
+
+  for(i=0; i<=4; i++)
+    {
+      Przeciwny = TabliczkaDzialania[e][i];
+      
+      if(Przeciwny + Arg == e)
+	{
+	  return Przeciwny;
+	}
+    }
+  
+  cerr << "ZMIANIA ZNAKU NA - : NIE ZNALEZIONO PRZECIWNEGO ELEMENTU!" << endl; 
+  return f;
+}
+
+/**************************************************************************************/
+/* MNOŻENIE */
+
+Symbol Mnoz (Symbol Arg1, Symbol Arg2)
+{
+  return TabliczkaMnozenia[Arg1][Arg2];
+}
+
+Symbol operator * (Symbol Arg1, Symbol Arg2)
+{
+  return TabliczkaMnozenia[Arg1][Arg2];
+}
+
+/**************************************************************************************/
+/* DZIELENIE */
+
+Symbol Odwrotny;
+
+Symbol Dziel (Symbol Arg1, Symbol Arg2)
+{
+  //Znajdowanie elementu odwrotnego:
+  int i;
+
+  for(i=0; i<=4; i++)
+    {
+      Odwrotny = TabliczkaMnozenia[a][i];
+      
+      if(Odwrotny * Arg2 == a)
+	{
+	  return TabliczkaMnozenia[Arg1][Odwrotny];
+	}
+    }
+
+  cerr << "DZIELENIE FUNKCYJNE: NIE ZNALEZIONO ODWROTNEGO ELEMENTU!" << endl; 
+  return f;
+}
+
+Symbol OdwrotnyMnozenia (Symbol Arg)
+{
+  int i;
+
+  for(i=0; i<=4; i++)
+    {
+      Odwrotny = TabliczkaMnozenia[a][i];
+      
+      if(Odwrotny + Arg == a)
+	{
+	  return Odwrotny;
+	}
+    }
+
+  cerr << "NIE ZNALEZIONO ODWROTNEGO ELEMENTU!" << endl; 
+  return f;
+}
+
+Symbol operator / (Symbol Arg1, Symbol Arg2)
+{
+  int i;
+
+  for(i=0; i<=4; i++)
+    {
+      Odwrotny = TabliczkaMnozenia[a][i];
+      
+      if(Odwrotny * Arg2 == a)
+	{
+	  return TabliczkaMnozenia[Arg1][Odwrotny];
+	}
+    }
+
+  cerr << "DZIELENIE OPERATOROWE/ALGEBRAICZNE: NIE ZNALEZIONO ODWROTNEGO ELEMENTU!"      << endl; 
+  return f;
+}
+
+/**************************************************************************************/
+/* POTEGOWANIE */
+
+Symbol ElemPotega[] = {e,b,c,d,e};
+
+Symbol Potega (Symbol Arg)
+{
+  return ElemPotega[Arg];
+}
+
+Symbol operator ~ (Symbol Arg)
+{
+  return ElemPotega[Arg];
+}
+
+/**************************************************************************************/
+/* SPRWADZENIE CZY WSZYSTKIE OPERACJE DAJĄ TEN SAM WYNIK */
+
+void Porownaj(Symbol wynik_alg, Symbol wynik_ope, Symbol wynik_fun)
+{
+ cout << ((wynik_alg == wynik_fun) ? "Identyczne" : "Rozne") 
+      << " wyniki wyrazenia algebraicznego i funkcyjnego." << endl;
+
+ cout << ((wynik_ope == wynik_fun) ? "Identyczne" : "Rozne") 
+      << " wyniki wyrazenia operatorowego i funkcyjnego." << endl;
+
+ cout << ((wynik_ope == wynik_alg) ? "Identyczne" : "Rozne") 
+      << " wyniki wyrazenia operatorowego i algebraicznego." << endl << endl;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+int main()
+{
+ Symbol wynik_alg, wynik_ope, wynik_fun;
+ 
+ /* Przykładowe wywołania */
+
+ wynik_alg = a + b; // <- Wyrażenie zapisane w sposób zwyczajowy
+ wynik_fun = Dodaj (a,b); // <- Wyrażenie wykorzystujące funkcje
+ wynik_ope = operator + (a,b); // <- Wyrażenie z jawnym wywołaniem operatorów 
+
+ Porownaj(wynik_alg,wynik_ope,wynik_fun);
+
+ wynik_alg = c - a; // <- Wyrażenie zapisane w sposób zwyczajowy
+ wynik_fun = Dodaj (c,PrzeciwnyDodawania(a)); // <- Wyrażenie wykorzystujące funkcje
+ wynik_ope = operator - (c,a); // <- Wyrażenie z jawnym wywołaniem operatorów 
+
+ Porownaj(wynik_alg,wynik_ope,wynik_fun);
+
+ wynik_alg = e*b; // <- Wyrażenie zapisane w sposób zwyczajowy
+ wynik_fun = Mnoz (e,b); // <- Wyrażenie wykorzystujące funkcje
+ wynik_ope = operator * (e,b); // <- Wyrażenie z jawnym wywołaniem operatorów 
+
+ Porownaj(wynik_alg,wynik_ope,wynik_fun);
+
+ wynik_alg = e / e; // <- Wyrażenie zapisane w sposób zwyczajowy
+ wynik_fun = Dziel (e,c); // <- Wyrażenie wykorzystujące funkcje
+ wynik_ope = operator / (e,e); // <- Wyrażenie z jawnym wywołaniem operatorów 
+ 
+ Porownaj(wynik_alg,wynik_ope,wynik_fun);
+ 
+}

@@ -1,0 +1,9 @@
+Niniejszy zalzek stanowi wstepna wersje.
+Zostanie on rozszerzony o nowe funkcjonalnosci,
+a moduly klas bazowych zostana przeksztalcowne
+w bibliotekę.
+
+Zawartości plików BlokSygnalowy.*, ListaBlockow.*
+nie należy modyfikowć. 
+Należy wyprowadzić własne klasy z klas bazowych
+BlokSygnalowy oraz ListaBlockow.

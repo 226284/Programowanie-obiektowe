@@ -1,0 +1,21 @@
+digraph "operator&lt;&lt;"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="operator\<\<",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="UkladRownanLiniowych\l::get_macierz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_uklad_rownan_liniowych.html#a10487b26bf131868789324194d1fdb97",tooltip="Metoda pozwala pobrać macierz znaków. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="UkladRownanLiniowych\l::get_wyrazy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_uklad_rownan_liniowych.html#a79cc079ca88590cda6843cf346d05c90",tooltip="Metoda pozwala pobrać wektor wyrazów wolnych. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="UkladRownanLiniowych\l::get_wyznacznik",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_uklad_rownan_liniowych.html#a10bec61279638b54a7327490784eb558",tooltip="Metoda pozwala pobrać wyznacznik z układu równań "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="UkladRownanLiniowych\l::get_rozwiazanie",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_uklad_rownan_liniowych.html#aedff81bd2a36624f2c231b371e1c0c66",tooltip="Metoda pozwala pobrać wektor rozwiązań "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="UkladRownanLiniowych\l::get_czy_blad",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_uklad_rownan_liniowych.html#a8302b78c682454d56a9c291e04133ead",tooltip="Pobieranie parametru czy_blad. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="UkladRownanLiniowych\l::get_wbledu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_uklad_rownan_liniowych.html#a36290ac0893ae2a983b54144a451a00c",tooltip="Metoda pozwala pobrać wektor błędu. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="UkladRownanLiniowych\l::get_blad",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_uklad_rownan_liniowych.html#a88a0663c338f672f09f02ab0739c3a95",tooltip="Metoda pozwala pobrać długość błędu. "];
+}

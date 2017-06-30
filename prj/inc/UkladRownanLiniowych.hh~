@@ -1,0 +1,195 @@
+#ifndef UKLADROWNANLINIOWYCH_HH
+#define UKLADROWNANLINIOWYCH_HH
+
+#include <iostream>
+#include <math.h> //została dodana z uwagi na użycie pierwiastka dla dł wektora
+#include "Macierz.hh"
+#include "rozmiar.h"
+#include "Wektor.hh"
+#include "Lzespolona.hh"
+
+
+/*!
+ * \brief Klasa UkladRownanLiniowych łączy w sb klasy: LZespolona, Wektor, Macierz
+ *
+ *  Rozszerzony opis klasy
+ */
+class UkladRownanLiniowych{
+  
+  /*!
+   * \brief Przechowuje rozmiar macierzy i wektora
+   *
+   * Pelny opis pola.
+   */
+  unsigned int Rozmiar;
+  /*!
+   * \brief Przechowuje wyznacznik macierzy
+   *
+   * Pelny opis pola.
+   */
+  element_t Wyznacznik;
+  /*!
+   * \brief Przechowuje macierz znaków 
+   *
+   * Pelny opis pola.
+   */
+  Macierz m; //macierz znaków
+  /*!
+   * \brief Przechowuje wektor wyrazów wolnych
+   *
+   * Pelny opis pola.
+   */
+  Wektor w;  //wektor wyrazów wolnych
+  /*!
+   * \brief Przechowuje wektor rozwiązań
+   *
+   * Pelny opis pola.
+   */
+  Wektor r;  //wektor rozwiązań
+  /*!
+   * \brief Przechowuje wektor błędu
+   *
+   * Pelny opis pola.
+   */
+  Wektor e;  //wektor błędu
+  /*!
+   * \brief Przechowuje długość wektora błędu
+   *
+   * Pelny opis pola.
+   */
+  element_t b; //dl wektora błędu
+  
+public:
+  
+  /*!
+   * \brief Metoda poznala na zmianę rozmiaru macierzy,wektora oraz układu równań
+   *
+   *  Pelny opis metody
+   */
+  unsigned int set_rozmiar (unsigned int rozm)
+  {
+    m.set_rozmiar (rozm);
+    w.set_rozmiar (rozm);
+    r.set_rozmiar (rozm);
+    e.set_rozmiar (rozm);
+    Rozmiar = rozm;
+    return Rozmiar;
+  }
+  /*!
+   * \brief Metoda pobiera rozmiar układu równań
+   *
+   *  Pelny opis metody
+   */
+  unsigned int const get_rozmiar () const { return Rozmiar; }
+
+  //Ustawianie wyznacznika
+  /*!
+   * \brief Metoda pozwala ustawić wyznacznik układu równań oraz macierzy
+   *
+   *  Pelny opis metody
+   */
+  element_t set_wyznacznik (element_t wyzn) {return m.set_wyznacznik(wyzn); }
+  /*!
+   * \brief Metoda pozwala pobrać wyznacznik z układu równań
+   *
+   *  Pelny opis metody
+   */
+  element_t get_wyznacznik () { return Wyznacznik; }
+  
+  /*!
+   * \brief Metoda pozwala ustawić wektor rozwiązań
+   *
+   *  Pelny opis metody
+   */
+  void set_rozwiazanie (Wektor rozw) { r = rozw; }
+  /*!
+   * \brief Metoda pozwala pobrać wektor rozwiązań
+   *
+   *  Pelny opis metody
+   */
+  Wektor get_rozwiazanie () { return r; }
+
+  /*!
+   * \brief Metoda pozwala modyfikować macierz znaków
+   *
+   *  Pelny opis metody
+   */
+  Macierz set_macierz (Macierz mac) { m = mac; return m; }
+  /*!
+   * \brief Metoda pozwala pobrać macierz znaków
+   *
+   *  Pelny opis metody
+   */
+  Macierz get_macierz () { return m; }
+
+  /*!
+   * \brief Metoda pozwala ustawić wektor wyrazów wolnych
+   *
+   *  Pelny opis metody
+   */
+  Wektor set_wyrazy (Wektor wyrazy) { w = wyrazy; return w; }
+  /*!
+   * \brief Metoda pozwala pobrać wektor wyrazów wolnych
+   *
+   *  Pelny opis metody
+   */
+  Wektor get_wyrazy () { return w; }
+
+  /*!
+   * \brief Metoda pozwala ustawić wektor błędu
+   *
+   *  Pelny opis metody
+   */
+  Wektor set_wbledu (Wektor wbledu) { e = wbledu; return e; }
+  /*!
+   * \brief Metoda pozwala pobrać wektor błędu
+   *
+   *  Pelny opis metody
+   */
+  Wektor get_wbledu () { return e; }
+    
+  /*!
+   * \brief Metoda pozwala ustawić długość wektora błędu
+   *
+   *  Pelny opis metody
+   */
+  element_t set_blad (element_t blad) { b = blad; return b; }
+  /*!
+   * \brief Metoda pozwala pobrać długość błędu
+   *
+   *  Pelny opis metody
+   */
+  element_t get_blad () { return b; }
+
+};
+
+//Wczytywanie/wypisywanie całego układu równań
+
+std::istream& operator >> (std::istream &Strm, UkladRownanLiniowych &UklRown);
+
+std::ostream& operator << ( std::ostream                  &Strm, 
+                            UkladRownanLiniowych    UklRown);
+
+
+
+//Funkcja rozwiąż oblicza rozwiązania wzorami Cramera i wpisuje je do wektora r
+
+Wektor oblicz (UkladRownanLiniowych &u);
+
+
+//Operator mnożenia macierzy z wektorem
+
+Wektor operator * (Macierz m, Wektor w);
+
+
+//Funkcja oblicza wektor błędu 
+
+Wektor blad (UkladRownanLiniowych &u);
+
+
+//Funkcja oblicza długość wektora błędu 
+
+element_t dlugosc_blad (UkladRownanLiniowych &u);
+
+
+#endif

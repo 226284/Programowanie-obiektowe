@@ -1,0 +1,52 @@
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include "BlokSygnalowy.hh"
+#include "ListaBlokow.hh"
+
+using namespace std;
+
+int main(int argc, char ** argv)
+{
+  int c;
+  ListaBlokow   ListaB;
+  ifsteam Wej;
+  ofstream Wyj;
+  string Nazwa;
+
+  while((c = getopt(argc,argv,"i:o:G:")) != -1){
+    
+    switch(c)
+      {
+	
+      case 'i':
+	{
+	  Wej.open(optarg,ios::in);
+
+	  if(Wej.good())
+	    {
+	      cout << "Pobrano plik wejściowy" << endl;
+	    }	
+
+	  break;
+	}
+
+      case 'o':
+	{
+	  Wyj.open(optarg,ios::out);
+
+	  Nazwa = string(optarg);
+	
+	  break;
+	}
+	
+      case 'G':
+	{
+	  ListaB.DodajBlokSygnalowy(new BlokPotegujacy());
+	  break;	
+	}
+      }
+  }
+
+  ListaB.WyswietlTypBlokowWLiscie();
+}

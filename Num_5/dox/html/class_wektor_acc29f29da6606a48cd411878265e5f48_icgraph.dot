@@ -1,0 +1,19 @@
+digraph "Wektor::set_rozmiar"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Wektor::set_rozmiar",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="UkladRownanLiniowych\l::oblicz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_uklad_rownan_liniowych.html#a7c392d8a23d7be4ec032fb1d841e6483",tooltip="Obliczanie rozwiązań "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="UkladRownanLiniowych\l::blad",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_uklad_rownan_liniowych.html#a3dfda7f69495fbcd24011e6841687827",tooltip="Obliczanie wektora błędu. "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="UkladRownanLiniowych\l::set_blad",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_uklad_rownan_liniowych.html#ab3e22d03f9c87afc1b2a094ad24ec182",tooltip="Metoda pozwala ustawić długość wektora błędu. "];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="UkladRownanLiniowych\l::set_czy_blad",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_uklad_rownan_liniowych.html#a85f65aa7ab9bdecadb73b13fc9381775",tooltip="Ustalanie parametru czy_blad. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="operator\>\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_uklad_rownan_liniowych_8hh.html#a1888ab2fa36bb6a35e302386c731d10e"];
+}

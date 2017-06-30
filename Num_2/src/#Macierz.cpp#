@@ -1,0 +1,83 @@
+#include "Macierz.hh"
+
+
+
+element_t Macierz::wyznacznik ()
+{
+  unsigned int i,j,k,l;
+  unsigned int rozmiar = get_rozmiar();
+  element_t wynik;
+  Wektor kolumny[ROZMIAR];
+
+  for (i=0; i<rozmiar; ++i) 
+    {
+      kolumny[i] = K[i];
+    }
+
+  for (i=0; i<rozmiar-1; ++i){
+    
+    for (j=i+1; j<rozmiar; ++j){
+      
+      for (k=i+1; k<rozmiar; ++k){
+	
+	if (kolumny[i][i] == 0)
+	  {
+	    bool find = false;
+	    for(l = i; l< rozmiar; ++l){
+	      
+	      if(kolumny[l][l] != 0)
+		{
+		  Wektor bufor;
+		  bufor = kolumny[i];
+		  kolumny[i] = kolumny[l];
+		  kolumny[l] = bufor;
+		  find = true;
+		}
+	    }
+
+	    if(!find) return wynik*0;
+	  }
+	
+	kolumny[j][k] = kolumny[j][k] - (kolumny[j][i] / kolumny[i][i] * kolumny[i][k]);
+      }
+    }
+  }
+  wyniwynik = 1;
+  for(i = 0; i<rozmiar; ++i)
+    {
+      wynik = wynik * kolumny[i][i];
+    }
+
+  return wynik * (-1);
+}
+
+std::istream & operator >> (std::istream &Strm, Macierz &Mac)
+{
+  unsigned int i,j;
+  for (i=0; i<Mac.get_rozmiar(); i++)
+    for(j=0; j<Mac.get_rozmiar(); j++)
+      {
+	{
+	  Strm >> Mac(j,i);
+	}
+      }
+  return Strm;
+}
+
+std::ostream & operator << (std::ostream &Strm, const Macierz &Mac)
+{
+  unsigned int i,j;
+
+
+  for (i=0; i<Mac.get_rozmiar(); i++)
+    {
+      Strm << "|";
+      for(j=0; j<Mac.get_rozmiar(); j++)
+	{
+	  Strm << Mac(i,j) << " ";
+	}
+      Strm << "|" << std::endl;
+    }
+  return Strm;
+}
+

@@ -1,0 +1,89 @@
+#include "Wektor.hh"
+
+
+std::istream & operator >> (std::istream &Strm, Wektor<typ> &Wek)
+{
+  unsigned int i;
+  for (i=0; i<Wek.get_rozmiar(); i++)
+    {
+      Strm >> Wek[i];
+    }
+  return Strm;
+}
+
+std::ostream & operator << (std::ostream &Strm, const Wektor<typ> &Wek)
+{
+  unsigned int i;
+
+  Strm << "[";
+  for(i=0; i<Wek.get_rozmiar(); i++) 
+    {
+      Strm << Wek[i] << " ";
+    }
+  Strm << "]" << std::endl;
+  return Strm; 
+}
+
+// DODAWANIE WEKTORÓW
+
+Wektor<typ> operator + (Wektor<typ> w1, Wektor<typ> w2)
+{
+
+  for (unsigned int i=0; i<w1.get_rozmiar(); i++)
+    {
+      w1[i] = w1[i] + w2[i];
+    }
+  
+  return w1;
+}
+
+// ODEJMOWANIE
+
+Wektor<typ> operator - (Wektor<typ> w1, Wektor<typ> w2)
+{
+  for (unsigned int i=0; i<w1.get_rozmiar(); i++)
+    {
+      w1[i] = w1[i] - w2[i];
+    }
+  
+  return w1;
+}
+
+// MNOŻENIE WEKTORÓW (ILOCZYN SKALARNY)
+
+double operator * (Wektor<typ> w1, Wektor<typ> w2)
+{
+  double wynik;
+
+  for (unsigned int i=0; i<w1.get_rozmiar(); i++)
+  {
+    wynik = wynik + (w1[i].Re() * w2[i].Re());
+    wynik = wynik + (w1[i].Im() * w2[i].Im());
+  }
+  
+  return wynik;
+}
+
+// MNOŻENIE PRZEZ LICZBE
+
+Wektor<typ> operator * (element_t Liczba, Wektor<typ> w)
+{
+  for (unsigned int i=0; i<w.get_rozmiar(); i++)
+    {
+      w[i] = Liczba * w[i];
+    }
+  
+  return w;
+}
+
+// DZIELENIE PRZEZ LICZBE
+
+Wektor<typ> operator / (Wektor<typ> w, element_t Liczba)
+{
+  for (unsigned int i=0; i<w.get_rozmiar(); i++)
+    {
+      w[i] = w[i] / Liczba;
+    }
+  
+  return w;
+}

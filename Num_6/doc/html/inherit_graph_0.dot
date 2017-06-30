@@ -1,0 +1,19 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="BlokSygnalowy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_blok_sygnalowy.html",tooltip="Modeluje najważniejsze elementy bloku sygnałowego. "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="BlokCalkowania",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_blok_calkowania.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="BlokDyskryminacji",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_blok_dyskryminacji.html",tooltip="Modeluje najważniejsze elementy bloku dyskrymianacji. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="BlokPotegujacy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_blok_potegujacy.html",tooltip="Modeluje najważniejsze elementy bloku potegowego. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="BlokProstujacy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_blok_prostujacy.html",tooltip="Modeluje najważniejsze elementy bloku dyskrymianacji. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="BlokPrzesuniecia",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_blok_przesuniecia.html",tooltip="Modeluje najważniejsze elementy bloku przesunięcia. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="BlokWzmocnienia",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_blok_wzmocnienia.html",tooltip="Modeluje najważniejsze elementy bloku wzmocnienia. "];
+}

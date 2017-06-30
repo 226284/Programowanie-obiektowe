@@ -1,0 +1,11 @@
+digraph "LZespolona::operator-"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="LZespolona::operator-",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="LZespolona::Re",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_l_zespolona.html#a06ce2b4a22c1ca3f8d97e41b602f078e",tooltip="Możemy pobrać dane o części rzeczywistej. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="LZespolona::Im",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_l_zespolona.html#ad4057ab72b1471f38df277781baa0752",tooltip="Możemy pobrać dane z części urojonej. "];
+}

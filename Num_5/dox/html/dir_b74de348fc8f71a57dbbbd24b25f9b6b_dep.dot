@@ -1,0 +1,10 @@
+digraph "/home/michal/Pulpit/macierz_org" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b74de348fc8f71a57dbbbd24b25f9b6b {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_b74de348fc8f71a57dbbbd24b25f9b6b.html"];
+    dir_b74de348fc8f71a57dbbbd24b25f9b6b [shape=plaintext label="macierz_org"];
+    dir_6893f2c23034d7273bd20cb8a53ba93e [shape=box label="prj" color="red" fillcolor="white" style="filled" URL="dir_6893f2c23034d7273bd20cb8a53ba93e.html"];
+  }
+}

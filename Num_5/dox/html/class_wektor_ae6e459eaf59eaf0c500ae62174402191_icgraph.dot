@@ -1,0 +1,19 @@
+digraph "Wektor::get_rozmiar"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Wektor::get_rozmiar",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="operator\>\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_wektor_8cpp.html#a8d80d7dc9433097dd0266ebb4aacb60e"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="operator\<\<",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_wektor_8cpp.html#a4c7cb115642fa8a05d9e30ac09faf38c"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="operator+",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_wektor_8cpp.html#affaab1c6305807a4fd5d0fc6111acc09"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="operator-",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_wektor_8cpp.html#a90d4a6b068fa6f29e3aa4fd58ba8d42e"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="operator*",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_wektor_8cpp.html#a280053caebced6ab1d1a8f51d1929968"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="operator/",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_wektor_8cpp.html#a3bc0fa9639f03b778b8c183898e8765b"];
+}

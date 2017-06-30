@@ -1,0 +1,79 @@
+Warning: Tag `SYMBOL_CACHE_SIZE' at line 300 of file Doxyfile has become obsolete.
+To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+Warning: Tag `SHOW_DIRECTORIES' at line 500 of file Doxyfile has become obsolete.
+To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+Warning: Tag `HTML_ALIGN_MEMBERS' at line 857 of file Doxyfile has become obsolete.
+To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+Warning: Tag `USE_INLINE_TREES' at line 1027 of file Doxyfile has become obsolete.
+To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+Warning: doxygen no longer ships with the FreeSans font.
+You may want to clear or change DOT_FONTNAME.
+Otherwise you run the risk that the wrong font is being used for dot generated graphs.
+warning: The selected output language "polish" has not been updated
+since release 1.8.2.  As a result some sentences may appear in English.
+
+sh: 1: sh: 1: dot: not founddot: not found
+
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/zad7/zalazek/dox/html/_blok_sygnalowy_8cpp__incl.dot" -Tpng -o "/home/michal/Pulpit/zad7/zalazek/dox/html/_blok_sygnalowy_8cpp__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/zad7/zalazek/dox/html/_blok_sygnalowy_8hh__incl.dot" -Tpng -o "/home/michal/Pulpit/zad7/zalazek/dox/html/_blok_sygnalowy_8hh__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/zad7/zalazek/dox/html/_lista_blokow_8hh__incl.dot" -Tpng -o "/home/michal/Pulpit/zad7/zalazek/dox/html/_lista_blokow_8hh__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/zad7/zalazek/dox/html/_lista_blokow_8cpp__incl.dot" -Tpng -o "/home/michal/Pulpit/zad7/zalazek/dox/html/_lista_blokow_8cpp__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/zad7/zalazek/dox/html/_lista_blokow_8hh__dep__incl.dot" -Tpng -o "/home/michal/Pulpit/zad7/zalazek/dox/html/_lista_blokow_8hh__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/zad7/zalazek/dox/html/_blok_sygnalowy_8hh__dep__incl.dot" -Tpng -o "/home/michal/Pulpit/zad7/zalazek/dox/html/_blok_sygnalowy_8hh__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/zad7/zalazek/dox/html/main_8cpp__incl.dot" -Tpng -o "/home/michal/Pulpit/zad7/zalazek/dox/html/main_8cpp__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/zad7/zalazek/dox/html/class_blok_sygnalowy__coll__graph.dot" -Tpng -o "/home/michal/Pulpit/zad7/zalazek/dox/html/class_blok_sygnalowy__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/zad7/zalazek/dox/html/main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.dot" -Tpng -o "/home/michal/Pulpit/zad7/zalazek/dox/html/main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/zad7/zalazek/dox/html/class_lista_blokow__coll__graph.dot" -Tpng -o "/home/michal/Pulpit/zad7/zalazek/dox/html/class_lista_blokow__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/zad7/zalazek/dox/html/class_lista_blokow__inherit__graph.dot" -Tpng -o "/home/michal/Pulpit/zad7/zalazek/dox/html/class_lista_blokow__inherit__graph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/zad7/zalazek/dox/html/class_lista_blokow_a6eaed622e04fdd01246ffda3879b9631_icgraph.dot" -Tpng -o "/home/michal/Pulpit/zad7/zalazek/dox/html/class_lista_blokow_a6eaed622e04fdd01246ffda3879b9631_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/zad7/zalazek/dox/html/graph_legend.dot" -Tpng -o "/home/michal/Pulpit/zad7/zalazek/dox/html/graph_legend.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/zad7/zalazek/dox/html/dir_4aa64b0872d36146e049722e293482e3_dep.dot" -Tpng -o "/home/michal/Pulpit/zad7/zalazek/dox/html/dir_4aa64b0872d36146e049722e293482e3_dep.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/zad7/zalazek/dox/html/class_lista_blokow_ab77e5d62f4959fc61d2461a454bd7a68_icgraph.dot" -Tpng -o "/home/michal/Pulpit/zad7/zalazek/dox/html/class_lista_blokow_ab77e5d62f4959fc61d2461a454bd7a68_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/zad7/zalazek/dox/html/dir_72345776cd6700fb0dedb8f1faaa0c00_dep.dot" -Tpng -o "/home/michal/Pulpit/zad7/zalazek/dox/html/dir_72345776cd6700fb0dedb8f1faaa0c00_dep.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/zad7/zalazek/dox/html/dir_400757c3a0df52e783ed9699284f29ce_dep.dot" -Tpng -o "/home/michal/Pulpit/zad7/zalazek/dox/html/dir_400757c3a0df52e783ed9699284f29ce_dep.png"'
+sh: 1: sh: 1: dot: not founddot: not found
+
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/zad7/zalazek/dox/html/inherit_graph_0.dot" -Tpng -o "/home/michal/Pulpit/zad7/zalazek/dox/html/inherit_graph_0.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/zad7/zalazek/dox/html/inherit_graph_2.dot" -Tpng -o "/home/michal/Pulpit/zad7/zalazek/dox/html/inherit_graph_2.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/michal/Pulpit/zad7/zalazek/dox/html/inherit_graph_1.dot" -Tpng -o "/home/michal/Pulpit/zad7/zalazek/dox/html/inherit_graph_1.png"'
+error: problems opening map file /home/michal/Pulpit/zad7/zalazek/dox/html/class_lista_blokow__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/zad7/zalazek/dox/html/class_lista_blokow__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/zad7/zalazek/dox/html/dir_72345776cd6700fb0dedb8f1faaa0c00_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/zad7/zalazek/dox/html/dir_4aa64b0872d36146e049722e293482e3_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/zad7/zalazek/dox/html/dir_400757c3a0df52e783ed9699284f29ce_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/zad7/zalazek/dox/html/inherit_graph_0.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/zad7/zalazek/dox/html/inherit_graph_1.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/michal/Pulpit/zad7/zalazek/dox/html/inherit_graph_2.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Aby zakonczyc nacisnij klawisz:  q
