@@ -1,2 +1,2 @@
 # Programowanie-obiektowe
-Programy z list Dr Kreczmera. Zajęcia laboratoryjne z Wojciechem Domskim.
+Programs for Object Programming in C++
